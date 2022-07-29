@@ -1,0 +1,29 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  background-color: #ffe7ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  width: 100vw;
+  font-family: "Oswald";
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  width: 100vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .text {
+    font-size: 30px;
+  }
+}

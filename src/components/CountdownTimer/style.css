@@ -1,0 +1,22 @@
+.countdown-timer {
+  height: 100px;
+  font-family: "Oswald";
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-timer span {
+  margin: 0 5px;
+}
+
+.two-numbers {
+  width: 2ch;
+}
+
+@media only screen and (max-width: 600px) {
+  .countdown-timer {
+    font-size: 19px;
+  }
+}
